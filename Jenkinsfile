@@ -1,4 +1,4 @@
-node ('ubuntu-02') {
+node ('docker') {
 checkout scm
 stage('build') {
 withMaven(jdk: 'Default Java', maven: 'Default Maven') {
